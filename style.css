@@ -1,0 +1,106 @@
+:root{
+    --primary: white;
+    --secondary: black;
+    --gray: rgb(238, 230, 230);
+    --pink: #fd4c82;
+}
+body{
+    background: var(--gray);
+}
+
+/* header */
+.headerone{
+    display: flex;
+    justify-content: space-between;
+    background: var(--gray) ;
+}
+
+.headerone ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.headerone a{
+    background: var(--primary) ;
+    color: var(--secondary);
+    padding: 8px 10px;
+    border-radius: 100%;
+    text-decoration: none;
+}
+.headerone span{
+    color: rgb(107, 107, 107);
+    font-size: 13px;
+}
+.headerone h5{
+    font-size: 13px;
+}
+
+.headertwo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--primary);
+    padding: 10px 10px 0px 10px;
+}
+
+.headertwo .nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.headertwo a{
+    text-decoration: none;
+    color: var(--secondary);
+    font-weight: 500;
+}
+
+.headertwo .logo{
+    display: flex;
+}
+
+.headertwo .free{
+    padding: 15px 20px;
+    background: var(--pink);
+}
+
+.headertwo .free a{
+    color: var(--primary);
+font-weight: 500;
+}
+.headertwo h4{
+    font-size: 15px;
+    color: var(--pink);
+    margin-top: -10px;
+}
+.headertwo .logowrapper{
+    display: flex;
+}
+  /* footer */
+
+  .footer{
+    display: flex;
+  }
+   .footer h5{
+    color: rgb(107, 107, 107);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+   }
+   .footer .a{
+    background: var(--pink);
+    color: var(--primary);
+    padding: 10px 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.footer .ankr{
+margin-top: 30px;
+} .footer h4{
+    margin-top: -10px;
+    font-size: 15px;
+    color: var(--pink);
+}
+ .footercontent{
+    display: flex;
+ }
